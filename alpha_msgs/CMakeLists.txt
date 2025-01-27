@@ -32,6 +32,8 @@ rosidl_generate_interfaces(${PROJECT_NAME}
         "msg/JointData.msg"
         "msg/EefPositionTrajectory.msg"
         "msg/JointTrajectory.msg"
+        "msg/StringStamped.msg"
+        "msg/JointLimits.msg"
         DEPENDENCIES
         std_msgs
         geometry_msgs
